@@ -1,0 +1,609 @@
+/*
+Theme Name: Kabee
+Theme URI: http://Kabee/
+Author: Spaceshiplabs
+Author URI: http://spaceshiplabs.com/
+Description: Plantilla para Kabee.
+Version: 1.0
+Text Domain: Kabee
+*/
+
+*{margin: 0px;padding: 0px;}
+
+/*MENU*/
+/*cabecera*/
+body{height: auto;background-color: white;}
+.contmenu{ margin-bottom: 10px;}
+.header{width: 100%; background-color: white;}
+.contenedorheader{display: block;margin:0 auto;}
+.imglogo{width: 130px;height: 60px;float: left;}
+a{height: 100%;}
+a:hover{border-bottom: 3px green; }
+li{margin-top: 5px;text-align: center;height: 90%;}
+.bordepie{background-color: white;}
+.bordepie:hover{ border-bottom: 3px solid #8CC63E}
+.hoverpro{width: 100%;height: 100%;color: black;font-family: OpenSans-Regular;}
+.hoverpro:hover{background-color: #8CC63E;color: white;}
+.contredes{width: 30px;height: 100%;float: right;}
+.fgfgfgf{width: 100%;height: 100%}
+
+/**cabecera**/
+/*MENU*/
+
+/**MENU**/
+
+/**LG**/
+.menucabeceralg{width: 1020px;height: 72px;display: block;margin: 0 auto;font-family: OpenSans-Regular;clear: both;}
+.logolg{float: left;margin-right: 30px;}
+.botonesmenulg{width: 110px;height: 72px;float: left;border: white;font-size: 13px;border-bottom: 5px solid white;}
+.botonesmenuprolg{width: 160px;height: 72px;float: left;border: white;font-size: 13px;border-bottom: 5px solid white;}
+.botonesmenuprenlg{width: 100px;height: 72px;float: left;border: white;font-size: 13px;border-bottom: 5px solid white;}
+.botonesmenuquienlg{width: 140px;height: 72px;float: left;border: white;font-size: 13px;border-bottom: 5px solid white;}
+.botonesmenucontlg{width: 150px;height: 72px;float: left;border: white;font-size: 13px;border-bottom: 5px solid white;}
+.hoverbotonlg:hover{border-bottom: 5px solid #8CC63E;background-color: white;}
+.hoverbotonlg:focus{background-color: #8CC63E;color: white;}
+.fleplg{display: block;margin:0 auto;width: 15px;height: 5px;margin-bottom: -5px;}
+.redesmenulg{width: 40px;height: 72px;float: left;}
+.twimenulg{margin: 28px 0 0 7px;}
+.facemenulg{margin: 28px 0 0 19px;}
+.listaslg{font-family: OpenSans-Regular;}
+.listaslg:hover{background-color: #8CC63E;color: white;}
+/**LG**/
+
+/**MD**/
+.menucabeceramd{width: 1020px;height: 72px;display: block;margin: 0 auto;font-family: OpenSans-Regular;clear: both;}
+.logomd{float: left;margin-right: 30px;}
+.botonesmenumd{width: 110px;height: 72px;float: left;border: white;font-size: 13px;border-bottom: 5px solid white;}
+.botonesmenupromd{width: 160px;height: 72px;float: left;border: white;font-size: 13px;border-bottom: 5px solid white;}
+.botonesmenuprenmd{width: 100px;height: 72px;float: left;border: white;font-size: 13px;border-bottom: 5px solid white;}
+.botonesmenuquienmd{width: 140px;height: 72px;float: left;border: white;font-size: 13px;border-bottom: 5px solid white;}
+.botonesmenucontmd{width: 150px;height: 72px;float: left;border: white;font-size: 13px;border-bottom: 5px solid white;}
+.hoverbotonmd:hover{border-bottom: 5px solid #8CC63E;background-color: white;}
+.hoverbotonmd:focus{background-color: #8CC63E;color: white;}
+.flepmd{display: block;margin:0 auto;width: 10px;height: 5px;margin-bottom: -5px;}
+.redesmenumd{width: 40px;height: 72px;float: left;}
+.twimenumd{margin: 28px 0 0 7px;}
+.facemenumd{margin: 28px 0 0 19px;}
+.listasmd{font-family: OpenSans-Regular;}
+.listasmd:hover{background-color: #8CC63E;color: white;}
+/**MD**/
+
+/**SM**/
+.menucabecerasm{width: 800px;height: 72px;display: block;margin: 0 auto;font-family: OpenSans-Regular;clear: both;}
+.logosm{float: left;margin-right: 10px;}
+.botonesmenusm{width: 70px;height: 72px;float: left;border: white;font-size: 13px;border-bottom: 3px solid white;}
+.botonesmenuprosm{width: 120px;height: 72px;float: left;border: white;font-size: 13px;border-bottom: 3px solid white;}
+.botonesmenuprensm{width: 80px;height: 72px;float: left;border: white;font-size: 13px;border-bottom: 3px solid white;}
+.botonesmenuquiensm{width: 110px;height: 72px;float: left;border: white;font-size: 13px;border-bottom: 3px solid white;}
+.botonesmenucontsm{width: 100px;height: 72px;float: left;border: white;font-size: 13px;border-bottom: 3px solid white;}
+.hoverbotonsm:hover{border-bottom: 6px solid #8CC63E;background-color: white;}
+.hoverbotonsm:focus{background-color: #8CC63E;color: white;}
+.flepsm{display: block;margin:0 auto;width: 10px;height: 5px;margin-bottom: -5px;}
+.redesmenusm{width: 40px;height: 72px;float: left;}
+.twimenusm{margin: 28px 0 0 7px;}
+.facemenusm{margin: 28px 0 0 19px;}
+.listassm{font-family: OpenSans-Regular;}
+.listassm:hover{background-color: #8CC63E;color: white;}
+/**SM**/
+
+/**XS**/
+.logoxs{float: right;margin-top: -10px;}
+#dl-menu{z-index: 100;margin-top: 10px;margin-bottom: 5px;}
+.dl-trigger{background-color: #8EC63F }
+.dl-back{background-color: #8EC63F}
+.mili{background-color:#8EC63F }
+.ulmenu{background-color: #8EC63F}
+.mitigger{background-color: #8EC63F }
+/**XS**/
+
+/**MENU**/
+
+/*HOME*/
+#home{width: 100%;height:auto; }
+.imagenhome{position: relative;width: 100%; height: 560px;}
+.linetriangulos{width: 100%;height: 9px;position: absolute;bottom: 0;  background-image: url(../img/home/triangulo_naranja.png);background-repeat: repeat-x;}
+.artesanos{width: 100%; height: 225px; background-color: #FF873B;margin-top: -5px;}
+.flechaart{width: 35px; margin: auto; padding-top: 10px; padding-bottom: 30px; }
+.textartg{width: 100%;height: auto;text-align: center;color: white;font-family: OpenSans-ExtraBold;padding-top: 30px}
+.textart{width: 100%;height: auto;text-align: center;color: white;}
+.lineart{width: 200px; height: 1px; border: 1px solid white;font-size: 14px; margin: auto;margin-bottom: -5px; }
+.imgart{width: 100%;height: 600px;}
+.fondo{margin-top: -5px;}
+.miulhome{width: 100%}
+.leyendaartesanos{width: 100%;height: 150px;background-color: #FF822B;position: absolute;bottom: 0;margin-top: -2px;color: white;text-align: justify;}
+.tituloartleyenda{color: white;text-align: center;font-size: 20px}
+.parrafoleyendaart{color: white;text-align: justify;width: 80%;display: block;margin: 0 auto;font-family: OpenSans-Regular;font-size: 12px;color: white}
+.botonesarts{width: 30px;height: 40px;display: inline-block;background-color: #FF873B; margin: 0 5px 0 5px ;}
+.main{text-align: center;}
+#productoshomemovile{display: block;}
+/*Slider*/
+#owl-demo .item{margin: 3px;}
+#owl-demo .item img{display: block;width: 100%;height: auto;}
+.owl-pagination{display: none}
+.contenidoartesanos{width: 100%;height: 740px;background-color: green;margin-bottom: 30px;text-align: center;margin-top: -20px}
+.contartesanos{width: 50%;height: 600px;float: left;}
+.imgartesanoshome{width: 100%;height:570px;}
+.img_thumb{width: 100%;height: 100%}
+.artesanoshome{position: relative;float: left;width: 657px;height: 600px;overflow: hidden;margin: 0 15px 15px 0;}
+.infoartesano {display: none;position: absolute;right: 0;bottom: 0;z-index: 10;width: 70%;height: 120px;background-color: #FF6D1D;color: #FFF;padding: 10px;float: right;}
+.artesanoshome:hover .infoartesano {display: block;}
+.leyendartesano{font-size: 13px;text-align: justify;}
+.nombreartesano{margin-top: -3px;font-size: 18px;text-align: justify;}
+/*botones*/
+.contbotoneshome{width: 100%;height: 30px;}
+.botones{width: 86px;height: 35px; margin: auto;}
+.bizq{width: 50px;height: 100%;float: left;background-color: #FF873B;}
+.bder{width: 50px;height: 100%;float: right;background-color: #FF873B;}
+.imgbizq{width: 18px;height: 30px;float: left;margin: 2px;margin-right: 3px;}
+.imgbder{width: 18px;height: 30px;float: right;margin: 2px;margin-left: 3px;}
+.bac{background-color: black;}
+/*botones*/
+/*Productos*/
+.thumb{width: 100%;height: auto;}
+.imgallnoticia{width: 100%;height: auto;}
+.imgprohometodos{margin-top: 50px;width: 266px;height: 253px;}
+.indexcontpro{margin: auto;}
+.productohome{width: 274px;height: 266px;margin: auto;position: relative;}
+.imgprohome{width: 274px;height: 266px;}
+.nombreproxs{position:absolute;width: 200px;height: 40px;background-color: #8EC63F;right: 0;bottom: 0;color: white;font-family: OpenSans-ExtraBold;font-size: 10px;text-align: center;}
+.contvermas{margin-left: 70px;width: 111px;height: 50px;background-color: #FF873B;margin-top: 60%;position: absolute;}
+.hovermas{width: 90%;height: 80%;background-color: #FF873B;margin: auto;border: 1px solid white;margin-top: 5px;}
+.h4vermashome{color: white;border: 0px;}
+.h4vermashome:hover{color: white;border: #FF873B;}
+
+
+
+.contenidoproductoshome{width: 80%;height: 1200px;text-align: center;display: block;margin:0 auto;margin-bottom: 100px;}
+.productoshomeindex{height: 300px;border: 1px solid white;display: inline-block;;}
+
+
+/* el contenedor y la imagen */
+div.hoverimgmas {overflow: hidden;position: relative;vertical-align: middle;width: 250px;/* tuve que establecer la altura para que los textos se centraran verticalmente */height: 300px;line-height: 358px;}
+div.hoverimgmas img {width: 266px;}
+/* los textos que, por defecto, permanecerán ocultos */ 
+div.hoverimgmas span {width: 100%;color: #FFF;font-size: 32px;height: 100%;opacity: 0; position: absolute;text-align: center;transition: all 0.3s linear 0s; /* agregar los prefijos para cada navegador */width: }
+/* y esto es lo que generará el efecto */
+div.hoverimgmas span:nth-child(1) { /* desde arriba */left: 0;top: -1%;}
+/* los hacemos visibles ... */
+div.hoverimgmas span:hover {opacity: 50;}
+/* ... moviéndolos horizontalmente ... */
+div.hoverimgmas span:nth-child(2n+1):hover {left: 0;}
+/* ... o verticalmente ... */
+/*Productos*/
+/**HOME XS**/
+.contartxs{background-color: #FF873B}
+.imagenhomexs{position: relative;width: 100%; height: 400px;}
+.linetriangulosxs{width: 100%;height: 9px;position: absolute;bottom: 0;  background-image: url(../img/home/triangulo_naranja.png);background-repeat: repeat-x;}
+.texthead{display: block;font-size: 15px;text-transform:uppercase;width: 150px;height: 30%;position: absolute;margin-top: -300px;margin-left: 50%;color: white;text-align: center;font-family: OpenSans-Regular;}
+.artesanosxs{width: 100%; height: 90px; background-color: #FF873B;margin-top: -20px;}
+.flechaartxs{width: 35px; margin: auto;}
+.artflechaxs{width: 35px; height: 11px;margin: auto;}
+.textartgxs{width: 100%;height: auto;text-align: center;color: white;font-family: OpenSans-Bold;padding-top: 10px}
+.textartxs{width: 100%;height: auto;text-align: center;color: white;}
+.artimgxs{width: 100%;height: 411px;}
+.infoart{width: 100%;height: 146px;background-color: #FF873B;color: white;text-align: center;}
+.tituloart{font-size: 17px;margin-top: 15px;}
+.contbotonesxs{width: 80px;height: 40px;display: block;margin: 0 auto;background-color: #FF873B;margin-top: 10px;}
+.btnderxs{width: 50%;height: 100%;float: left;}
+.btnizqxs{width: 50%;height: 100%;float: left;}
+.flehasartxs{display: block;margin:0 auto;}
+.linetriangulosrosaxs{width: 100%;height: 9px;background-image: url(../img/home/responsive/triangulosrosa1.png);background-repeat: repeat-x;margin-top: 33px;}
+.productoshomexs{width: 100%;height: 117px;background-color: #FF4774;}
+.todosxs{width: 90%;color: white;text-align: center;font-size: 20px;display: block;margin: 0 auto;border-bottom: 2px solid white;padding-top: 40px;}
+.linetriangulosrosaxs2{width: 100%;height: 9px;background-image: url(../img/home/responsive/triangulosrosa2.png);background-repeat: repeat-x;}
+.contproxshome{width: 100%;height: auto;margin-top: 50px;}
+.imgprodxshome{width: 100%;height: 100%}
+.contbotonesrosasxs{width: 80px;height: 40px;display: block;margin: 0 auto;background-color: #FF80AB;margin-top: 10px;}
+.btnderxsrosa{width: 50%;height: 100%;float: left;}
+.btnizqxsrosa{width: 50%;height: 100%;float: left;}
+.contproxs{width: 300px;display: block;margin: 0 auto;}
+.imgproxshome{position: relative;float: left;width: 300px;height: 300px;margin: 0 15px 15px 0;}
+.infoprohomexs {position: absolute;right: 0;bottom: 0;z-index: 10;width: 250px;height: 40px;text-align: center;background-color: #75CF00;color: #FFF;padding: 10px;float: right;}
+.nombreartesano{margin-top: 10px;font-size: 16px}
+/**HOME XS**/
+/**HOME**/
+
+/**QUIENES SOMOS**/
+.contenidoquienes{height: auto;clear:both;}
+.headerquienes{width: 100%;height: 480px;background-image: url(../img/quienes/1.jpg);background-repeat:no-repeat;background-position:center;background-size: 100% 100%;clear: both;}
+.contmensajequienes{height: 240px;background-color: #ED008C;margin-top: 110px;}
+.mensajequienes{height: 212px;border: 2px solid white;margin-top: 15px;text-align: center;color: white;}
+.tituloqlg{margin-top: 30px;OpenSans-Semibold;font-size: 25px;}
+.infoqlg{font-family: OpenSans-Regular;font-size: 20px;}
+.tituloqsm{margin-top: 25px;OpenSans-Semibold;font-size: 23px;}
+.infoqsm{font-family: OpenSans-Regular;font-size: 19px;}
+.headerquienesxs{width: 100%;height: 300px;background-image: url(../img/quienes/1.jpg);background-repeat:no-repeat;background-position:center;background-size: 100% 100%;clear: both;}
+.mensajequienesxs{height: 212px;border: 2px solid white;margin-top: 5px;text-align: center;color: white;}
+.contmensajequienesxs{height: 240px;background-color: #ED008C;margin-top: 30px;}
+.imgquienesxs{width: 100%}
+.tituloqxs{margin-top: 30px;OpenSans-Semibold;font-size: 15px;}
+.infoqxs{font-family: OpenSans-Regular;font-size: 12px;}
+.infoquien{width: 100%;height: 540px;background-color: #8EC63F;text-align: justify;color: white;}
+.flechaquienes{padding-top: 45px;display: block;margin:0 auto;}
+.textquien{margin-top: 80px;font-family: OpenSans-Regular;font-size: 18px}
+.imgquienes{width: 100%;height: 508px;}
+.textnaranja{width: 100%;height: 424px; background-color: #EC681E;}
+.textquien2{margin-top: 80px;font-family: OpenSans-Regular;font-size: 18px;color: white;text-align: justify;}
+.infoquienxs{width: 100%;height: 480px;background-color: #8EC63F;text-align: justify;color: white;}
+.textquienxs{margin-top: 25px;font-family: OpenSans-Regular;font-size: 12px}
+.textquien2xs{margin-top: 25px;font-family: OpenSans-Regular;font-size: 12px;color: white;text-align: justify;}
+.contfoter{background-color: #EC681E;}
+/**QUIENES SOMOS**/
+
+/**PRENSA**/
+/**BLOG**/
+.tituloprensa1{color: white}
+.tituloprensa1:hover{color: white}
+.headermsblog{margin-bottom: 40px;height:275px;width: 100%;width: 100%;height: 280px;background-image: url(../img/prensa/header.jpg);background-repeat:no-repeat;background-position:center;background-size: 100% 100%;clear: both;}
+.contmensajeblog{height: 185px;background-color: #FF873B;margin-top: 50px}
+.mensajeheader{margin: auto;height: 161px;width: 100%;border: 2px solid white;color: white;margin-top: 15px;}
+.titulomensaje{font-size: 20px;text-align: center;}
+.infomensaje{font-size: 17px;text-align: justify;width: 70%;height: auto;margin: auto;margin-top: 20px;font-family: OpenSans-Regular}
+.post{height: auto;font-family: OpenSans-Bold;border: 1px solid #EF1D9C;margin-bottom: 50px;}
+.h4popular{margin-top: 22px;}
+.h4post{color: #ED008C; font-size: 20px;}
+.parrapostpre{font-family: OpenSans-Regular;font-size: 13px;text-align: justify;width: 100%;margin-top: 20px}
+.parrapost{font-family: OpenSans-Regular;font-size: 13px;text-align: justify;width: 100%;}
+.parrablog{font-family: OpenSans-Regular;font-size: 15px;text-align: justify;}
+.vermasbtn{background-color:#ED008C;color: white;margin: 10px 0 20px 0;border: 1px solid #ED008C;width: 150px;height: 50px;font-family: OpenSans-Regular;}
+.vermasbtn:hover{background-color:#8EC63F;border: 1px solid #8EC63F;}
+.contizqblog{height: auto;}
+.noticia1{width: auto;height: auto;}
+.imgnoticia{width: 100%}
+.fechablog{font-size: 13px; color: #B3B3B3}
+.botonesblog{width: auto;height: 50px;float: right;margin-bottom: 50px}
+.pagincionblogbtn{width: 39px;height: 39px;background-color: #E1E1E1;float: left;margin: 5px 3px 5px 3px;}
+.page-numbers{padding: 15px;background-color: #E1E1E1;color: #97989A;text-align: center;font-size: 20px;font-family: OpenSans-Regular;margin-top: 7px}
+.page-numbers:hover, .pagincionblogbtn:hover{color: white;background-color: #ED008C}
+.flechasblog{display: block;margin: 0 auto;margin-top: 10px}
+.imgblog{width: 100%}
+.search{float: left;color: white;font-family: OpenSans-Bold;font-size: 20px;margin-left: 20px}
+.serachcont{background-color: #EF1F9B;height: 100px; font-size: 20px;color: white}
+.buscarimgseaerch{width: 20px;float: right;height: 40px;font-size: 35px;color: white;margin-top: 8px;margin-right: 30px;}
+.buscarsearch{width: 100%;height: 30px;background-color: #E1E1E1;color: #A89FA0;}
+.formsearch1{width: 100%;height: 40px}
+.imagepopularpost{width: 100%}
+
+#sidebar .pagenav{display: none}
+#sidebar .categories{display: none}
+#sidebar a{display: none}
+#sidebar h2{display: none}
+#sidebar p{display: none}
+#sidebar .screen-reader-text{display: none}
+#searchsubmit{}
+.assistive-text{padding: 10px;float: left;margin-left: 10px;}
+#s{width: 100%;height: 50px;background-color: #E1E1E1;color: #A89FA0;float: right;border: 0px;bottom: 0;font-size: 13px}
+.botonlupa{background-color: #EF1F9B;border: 0px;float: right; padding: 10px;margin-right: 10px;}
+
+/**BLOG**/
+
+
+.contprensa{height: auto;margin-bottom: 200px;}
+.contizqpre{height: auto;}
+.mensajeprensa{background-color: #FF873B; height: 80px;}
+.contmjprensa{text-align: center;color: white;height: 65px;border: 2px solid white;margin-top: 7px;}
+.tituprexs{font-size: 12px;}
+.textprexs{font-size: 9px;}
+.infoprensa{height: auto;border: 1px solid #EF1F9B;margin-top: 30px;text-align: justify;font-family: OpenSans-Regular;font-size: 14px;}
+.parrafopre{margin-top: 20px;}
+.botonespre{height: auto;margin-top: 33px;}
+.redespre{background-color: #EF1F9B;height: 100%;margin-left: -15px;color: white;width:}
+.comprtirpre{float: left;margin-top: 15px;font-family: OpenSans-Regular;}
+.imgredespre{float: right; margin-top: 5px;margin-right: 10px;}
+.flechsspren{height: 40px;}
+.flechapreizq{float: right;background-color: #E1E1E1;height: 100%;width: 20px;}
+.flechapreder{float: right;background-color: #E1E1E1;height: 100%;width: 20px;}
+.flechapreizq:hover, .flechapreder:hover{background-color:#EF1F9B }
+.flechpre{display: block;margin: 0 auto;margin-top: 10px}
+.contderpre{height: auto;}
+.popular{height: 50px;background-color: #8EC63F; color: white;text-align: center;font-family: OpenSans-Bold;margin-top: -20px}
+.infopopular{height: auto;background-color: #E1E1E1;font-family: OpenSans-Bold}
+.h4popular{margin-top: 15px;}
+.h4infopo{color: #ED008C; font-size: 13px;}
+.parrafoinfpo{font-family: OpenSans-Regular;font-size: 11px;text-align: justify;}
+.infopopular2{height: auto;background-color: #ED008C;font-family: OpenSans-Bold}
+.fecha{font-size: 10px}
+.fecha2{font-size: 10px;color: white}
+.h4infopo2{color: white; font-size: 13px;}
+.infopopular2 p{font-family: OpenSans-Regular;font-size: 11px;text-align: justify;color: white}
+.conttags{height:auto; background-color: #E1E1E1;text-align: center;}
+.tagsini{width: 40%;display: inline-block;height: 33px;background-color: white;text-align: center;margin: 5px 5px 5px 5px;}
+.tags{width: 40%;display: inline-block;height: 33px;background-color: white;text-align: center;margin: 5px 5px 5px 5px;}
+.facekabee{background-color: #FF873B;text-align: center;margin-top: 30px;}
+.h4facekabee{color: white; font-size: 13px}
+.twikabee{background-color: #FF873B;text-align: center;margin-top: 150px;}
+.h4twikabee{color: white; font-size: 13px}
+.imgprensa{width: 100%; height: 250px}
+.contizqblog .thumb a .wp-post-image{width: 100%; height: 250px}
+.thumb a .wp-post-image{width: 100%;height: 350px}
+.imagepopularpost a .wp-post-image{width: 100%;height: 200px}
+.mexicoart{font-size: 10px;}
+.nohaymas{color: #EF1D9C}
+.formsearch1{height: 50px;}
+.buscarsearchpren{width: 100%;height: 100%;background-color: #E1E1E1;border: 0px}
+.infopopular p{font-family: OpenSans-Regular;font-size: 11px;text-align: justify;;}
+.pagprensa{float: right;}
+.listtags{width: 140px; height: 30px;float: left;background-color: white; display: inline-block;margin: 10px;text-align: center}
+.redespre a{color: white}
+/**PRENSA**/
+
+/**CONTACTO**/
+.headermscontacto{height:275px;width: 100%;width: 100%;height: 280px;background-image: url(../img/contacto/header.jpg);background-repeat:no-repeat;background-position:center;background-size: 100% 100%;clear: both;}
+.contmensajecontactos{height: 185px;background-color: #ED008C;margin-top: 50px}
+.mensajeqcontactos{margin: auto;height: 161px;width: 100%;border: 2px solid white;color: white;margin-top: 15px;}
+.titulomensaje{font-size: 20px;text-align: center;}
+.infomensaje{font-size: 17px;text-align: justify;width: 70%;height: auto;margin: auto;margin-top: 20px;font-family: OpenSans-Regular}
+.contenidocontac{width: 100%;height:900px;clear: both;}
+.formcont{width: 670px;height: 100%;display: block;margin: 0 auto;}
+.infoxscontactos{font-family: OpenSans-Regular;font-size: 12px;}
+.contformulario{height: 400px;clear: both;margin-top: 135px;}
+.conttextdatos{width: 176px;height: 170px;background-color: #ED008C; float: left;}
+.textdatos{width: 160px;height: 161px;border: 1px solid white;text-align: center; color: white;font-family: OpenSans-Regular;margin: 5px 0 0 8px;}
+.datosform{float: left;width: 176px;height: 173px;}
+.datos{color: white;margin-top: 15px;}
+.formulario{width: 487px;height: 305px;background-color: #8EC63F;float: left;}
+.nombre{width: 100%;height: 48px; border: 1px solid white; color: black;background-color: #CCCCCC;text-transform:uppercase;}
+.mail{width: 100%;height: 40px; border: 1px solid white; color: black;background-color:#8EC63F;color: white}
+.asunt{width: 100%;height: 40px; border: 1px solid white; color: black;background-color:#8EC63F;color: white}
+.mensajeform{width: 100%;height: 182px; border: 1px solid white; color: black;background-color:#8EC63F;color: white}
+.enviarbtn{display: block;margin: 0 auto;background-color:#ED008C;color: white;margin-top: 10px;border: 1px solid #ED008C;width: 100px;height: 50px;font-family: OpenSans-Regular;}
+.enviarbtn:hover{background-color:#8EC63F}
+/**CONTACTO**/
+
+/*PRODUCTOS*/
+.contenido{height: 230px;clear: both;}
+/**header**/
+.headermsblog{margin-bottom: 40px;height:275px;width: 100%;width: 100%;height: 280px;background-image: url(../img/prensa/header.jpg);background-repeat:no-repeat;background-position:center;background-size: 100% 100%;clear: both;}
+.contmensajeblog{height: 185px;background-color: #FF873B;margin-top: 50px}
+.mensajeheader{margin: auto;height: 161px;width: 100%;border: 2px solid white;color: white;margin-top: 15px;}
+.titulomensaje{font-size: 20px;text-align: center;}
+.infomensaje{font-size: 17px;text-align: justify;width: 70%;height: auto;margin: auto;margin-top: 20px;font-family: OpenSans-Regular}
+/**header**/
+.contenedorpro{text-align: center;height: auto}
+.productosventa{width: 100%;height: 100%;}
+.vermasprod{position: absolute;width: 100%;height: 50px;background-color: #FF873B;bottom: 0;color: white;font-family: OpenSans-ExtraBold;font-size: 10px;text-align: center;}
+.vermasproductos{margin: auto;margin-top: 5px;border: 1px solid white;width: 96%;height: 40px;color: white;font-family: OpenSans-ExtraBold;font-size: 10px;text-align: center;}
+/**paginacion**/
+.paginacionproductos{width: 290px;height: 40px;display: block;margin: 0 auto;margin-bottom: 20px}
+.pagincionproductosbtn{width: 39px;height: 39px;background-color: #E1E1E1;margin: 5px 3px 5px 3px;float: left;}
+.numerospaginacionproductos{color: #97989A;text-align: center;font-size: 20px;font-family: OpenSans-Regular;margin-top: 7px}
+.numerospaginacionproductos:hover, .pagincionproductosbtn:hover{color: white;background-color: #ED008C}
+/**efectos**/
+
+/* el contenedor y la imagen */
+div.hoverizquierda {overflow: hidden;position: relative;vertical-align: middle;width: 300px;/* tuve que establecer la altura para que los textos se centraran verticalmente */height: 300px;line-height: 358px;}
+div.hoverizquierda img {width: 300px; display: block;}
+/* los textos que, por defecto, permanecerán ocultos */ 
+div.hoverizquierda span {width: 100%;color: #FFF;font-size: 32px;height: 300px;opacity: 0; position: absolute;text-align: center;transition: all 0.3s linear 0s; /* agregar los prefijos para cada navegador */width: }
+/* y esto es lo que generará el efecto */
+div.hoverizquierda span:nth-child(1) { /* desde la izquierda */background-color: #FF873B;left: -30%;top: 0;}
+/* los hacemos visibles ... */
+div.hoverizquierda span:hover {opacity: 5;}
+/* ... moviéndolos horizontalmente ... */
+div.hoverizquierda span:nth-child(2n+1):hover {left: 0;}
+/* ... o verticalmente ... */
+div.hoverizquierda span:nth-child(2n):hover {top: 0;}
+
+/* el contenedor y la imagen */
+div.hoverderecha {overflow: hidden;position: relative;vertical-align: middle;width: 300px;/* tuve que establecer la altura para que los textos se centraran verticalmente */height: 300px;line-height: 358px;}
+div.hoverderecha img {width: 300px; display: block;}
+/* los textos que, por defecto, permanecerán ocultos */ 
+div.hoverderecha span {width: 100%;color: #FFF;font-size: 32px;height: 300px;opacity: 0; position: absolute;text-align: center;transition: all 0.3s linear 0s; /* agregar los prefijos para cada navegador */width: }
+/* y esto es lo que generará el efecto */
+div.hoverderecha span:nth-child(1) { /* desde la derecha */background-color: #FF873B;left: 20%;top: }
+/* los hacemos visibles ... */
+div.hoverderecha span:hover {opacity: 5;}
+/* ... moviéndolos horizontalmente ... */
+div.hoverderecha span:nth-child(2n+1):hover {left: 0;}
+/* ... o verticalmente ... */
+div.hoverderecha span:nth-child(2n):hover {top: 0;}
+
+/* el contenedor y la imagen */
+div.hoverarriba {overflow: hidden;position: relative;vertical-align: middle;width: 300px;/* tuve que establecer la altura para que los textos se centraran verticalmente */height: 300px;line-height: 358px;}
+div.hoverarriba img {width: 300px; display: block;}
+/* los textos que, por defecto, permanecerán ocultos */ 
+div.hoverarriba span {width: 100%;color: #FFF;font-size: 32px;height:  300px;opacity: 0; position: absolute;text-align: center;transition: all 0.3s linear 0s; /* agregar los prefijos para cada navegador */width: }
+/* y esto es lo que generará el efecto */
+div.hoverarriba span:nth-child(1) { /* desde arriba */background-color: #FF873B;left: 0;top: -1%;}
+/* los hacemos visibles ... */
+div.hoverarriba span:hover {opacity: 50;}
+/* ... moviéndolos horizontalmente ... */
+div.hoverarriba span:nth-child(2n+1):hover {left: 0;}
+/* ... o verticalmente ... */
+div.hoverarriba span:nth-child(2n):hover {top: 0;}
+.derecha{width: 100%;height: 100%;}
+
+/*Slider*/
+.infopro {text-align: center;width: 296px;height: 296px;color: #FFF;padding: 10px;background-color: #ED008C;}
+.producto{margin:10px 10px 10px 0;float: left;}
+.parrafopro{width: 250px;display: block;margin: 0 auto;margin-top: 30px;height: 200px}
+.infodelprod{font-family: OpenSans-Regular;text-align: justify;}
+.tituloprod{font-family: OpenSans-Bold}
+.bordepro{border: 2px solid white;height: 90%;margin-top: -1px;width: 280px;margin-left: -2px; height: 280px;}
+.productostrans {position:relative;height:296px;margin:0 auto;width:296px;}
+.productostrans img {left: 0;position:absolute;top: 0;}
+.productostrans .novisible {opacity:0;filter:alpha(opacity=0);}
+.productostrans:hover .novisible {opacity:1;filter:alpha(opacity=100);}
+.productostrans:hover img.visible {opacity:0;filter:alpha(opacity=0);}
+.productostrans img.visible:hover {opacity:0;filter:alpha(opacity=0);}  
+.productostrans img{-moz-transition: all 1s ease-in-out;-webkit-transition: all 1s ease-in-out;-o-transition: all 1s ease-in-out;transition: all 1s ease-in-out;}
+.productostrans .novisible {-moz-transform:scale(1,0);-webkit-transform:scale(1,0);-o-transform:scale(1,0);-ms-transform:scale(1,0);}
+.productostrans:hover .novisible {-moz-transform:scale(1);-webkit-transform:scale(1);-o-transform:scale(1);-ms-transform:scale(1);}
+.productostrans:hover img.visible {-moz-transform:rotate(360deg) scale(0);-webkit-transform:rotate(360deg) scale(0);-o-transform:rotate(360deg) scale(0);-ms-transform:rotate(360deg) scale(0);}
+/*Slider*/
+/*efecto*/
+.mensajever{width: 100px; height: 50px;display: block;margin: 0 auto; ; border: white 1px solid;color: white;margin-top: 80px;background-color:#ED008C;}
+.mensajever:hover{background-color:green ;}
+/*efecto*/
+/*botones*/
+.contbotones{width: 100%;height: 30px; margin-top: -13px;margin-bottom: 75px}
+.botones{width: 86px;height: 35px; margin: auto;}
+.bizq{width: 50%;height: 100%;float: left;background-color: #FF873B;}
+.bder{width: 50%;height: 100%;float: right;background-color: #FF873B;}
+.imgbizq{width: 18px;height: 30px;float: left;margin: 2px;margin-right: 3px;}
+.imgbder{width: 18px;height: 30px;float: right;margin: 2px;margin-left: 3px;}
+.bac{background-color: black;}
+/*botones*/
+/*PRODUCTOS*/
+.contproductossecciones{width: 100%;height: auto;text-align: center;margin:auto;background-color: white}
+.contenedordeproducto{display: inline-block;margin: 5px 5px 5px 5px}
+.imgagenproducto{width: 100%;height: 100%;display: inline-block;}
+.informacionproducto{width: 90%; height: auto; margin: auto;}
+.h5proinfo{text-align: justify;}
+/**mensaje**/
+.mensajeheader{margin: auto;height: 161px;width: 100%;border: 2px solid white;color: white;margin-top: 15px;}
+.titulomensaje{font-size: 20px;text-align: center;}
+.mensajeproductos{margin: auto;height: 161px;width: 100%;border: 2px solid white;color: white;margin-top: 15px;}
+.infomensaje{font-size: 17px;text-align: justify;width: 70%;height: auto;margin: auto;margin-top: 20px;font-family: OpenSans-Regular}
+/**mensaje**/
+/**BORDADOS**/
+.headermsbordados{margin-bottom: 40px;height:275px;width: 100%;width: 100%;height: 280px;background-image: url(../img/bordados/header.jpg);background-repeat:no-repeat;background-position:center;background-size: 100% 100%;clear: both;}
+.contmensajebordados{height: 185px;background-color: #8EC63F;margin-top: 50px}
+/**BORDADOS**/
+
+/**DULCES**/
+.headermsdulces{margin-bottom: 40px;height:275px;width: 100%;width: 100%;height: 280px;background-image: url(../img/dulces/header.jpg);background-repeat:no-repeat;background-position:center;background-size: 100% 100%;clear: both;}
+.contmensajedulces{height: 185px;background-color: #ED008C;margin-top: 50px}
+/**DULCES**/
+
+/**HENEQUEN**/
+.headermshenequen{margin-bottom: 40px;height:275px;width: 100%;width: 100%;height: 280px;background-image: url(../img/henequen/header.jpg);background-repeat:no-repeat;background-position:center;background-size: 100% 100%;clear: both;}
+.contmensajehenequen{height: 185px;background-color: #8EC63F;margin-top: 50px}
+/**HENEQUEN**/
+
+/**JIPI**/
+.headermsjipi{margin-bottom: 40px;height:275px;width: 100%;width: 100%;height: 280px;background-image: url(../img/jipi/header.jpg);background-repeat:no-repeat;background-position:center;background-size: 100% 100%;clear: both;}
+.contmensajejipi{height: 185px;background-color: #ED008C;margin-top: 50px}
+/**JIPI**/
+
+/**MADERA**/
+.headermsmadera{margin-bottom: 40px;height:275px;width: 100%;width: 100%;height: 280px;background-image: url(../img/madera/header.jpg);background-repeat:no-repeat;background-position:center;background-size: 100% 100%;clear: both;}
+.contmensajemadera{height: 185px;background-color: #8EC63F;margin-top: 50px}
+/**MADERA**/
+
+/**MERMELADA**/
+.headermsmermelada{margin-bottom: 40px;height:275px;width: 100%;width: 100%;height: 280px;background-image: url(../img/mermelada/header.jpg);background-repeat:no-repeat;background-position:center;background-size: 100% 100%;clear: both;}
+.contmensajemermelada{height: 185px;background-color: #ED008C;margin-top: 50px}
+/**MERMELADA**/
+
+/**MIEL***/
+.headermsmiel{margin-bottom: 40px;height:275px;width: 100%;width: 100%;height: 280px;background-image: url(../img/miel/header.jpg);background-repeat:no-repeat;background-position:center;background-size: 100% 100%;clear: both;}
+.contmensajemiel{height: 185px;background-color: #8EC63F;margin-top: 50px}
+/**MIEL***/
+
+/**MUÑECAS**/
+.headermsmunecas{margin-bottom: 40px;height:275px;width: 100%;width: 100%;height: 280px;background-image: url(../img/munecas/header.jpg);background-repeat:no-repeat;background-position:center;background-size: 100% 100%;clear: both;}
+.contmensajemunecas{height: 185px;background-color: #ED008C;margin-top: 50px}
+/**MUÑECAS**/
+
+/**SPA**/
+.headermsspa{margin-bottom: 40px;height:275px;width: 100%;width: 100%;height: 280px;background-image: url(../img/spa/header.jpg);background-repeat:no-repeat;background-position:center;background-size: 100% 100%;clear: both;}
+.contmensajespa{height: 185px;background-color: #8EC63F;margin-top: 50px}
+/**SPA**/
+
+/**OTROS**/
+.headermsotros{margin-bottom: 40px;height:275px;width: 100%;width: 100%;height: 280px;background-image: url(../img/otros/header.jpg);background-repeat:no-repeat;background-position:center;background-size: 100% 100%;clear: both;}
+.contmensajeotros{height: 185px;background-color: #ED008C;margin-top: 50px}
+/**OTROS**/
+
+/*footer*/
+.contfo{width: 100%;height: auto;}
+.linetriangulos2{width: 100%;height: 9px;background-image: url(../img/home/triangulo_gris.png);background-repeat: repeat-x;}
+.footer{width: 100%; height: 170px; background-color: #828284;}
+.datosfo{width: 690px;height: 100%;margin: auto;}
+.contdatoscor{width: 100%;height: 10%; margin-top: 30px;}
+.contacto{width: 132px;height: 100%;float: left;}
+.correo{width: 15%;float: left;}
+.textco{width: 80%;float: right;}
+.imgcorreo{float: right;margin-top: 8px;}
+.h5cont{color: white;clear: both;font-size: 10px;}
+.contdatostel{width: 100%;height: 10%; margin-top: -15px;}
+.telfono{width: 15%;float: left;}
+.textte{width: 80%;float: right;}
+.imgtelef{float: right;margin-top: 13px;}
+.h5tel{color: white;font-size: 10px;margin-top: 15px;}
+.menufo{width: 461px;height: 100%;float: left;}
+.enlacefoot{width: 17%;height:20px;border-right: 1px solid white;float: left;color: white;text-align: center;margin-top: 37px;}
+.inifoot{width: 50px;height:15px;border-right: 1px solid white;float: left;color: white;text-align: center;margin-top: 37px;margin-left: 30px;font-size: 10px;font-family: OpenSans-Regular;}
+.somosfoot{width: 100px;height:15px;border-right: 1px solid white;float: left;color: white;text-align: center;margin-top: 37px;font-size: 10px;font-family: OpenSans-Regular;}
+.profoot{width: 85px;height:15px;border-right: 1px solid white;float: left;color: white;text-align: center;margin-top: 37px;font-size: 10px;font-family: OpenSans-Regular;}
+.prefoot{width: 62px;height:15px;border-right: 1px solid white;float: left;color: white;text-align: center;margin-top: 37px;font-size: 10px;font-family: OpenSans-Regular;}
+.contfoot{width: 76px;height:15px;border-right: 1px solid white;float: left;color: white;text-align: center;margin-top: 37px;font-size: 10px;font-family: OpenSans-Regular;}
+.social{width: 95px;height: 100%;float: left;}
+.contimgso{width: 100%;height: auto;margin-top: 20px;clear: both;}
+.redesfoot{width: 25%; height: 25%; float: left; margin: auto; margin: 5px;}
+.footface2{float: left;}
+.foottwi2{margin-top: 0; margin-left: 5px;}
+.copyright{color: white; margin-top: 80px;margin-left: 10px;font-size: 10px;font-family: OpenSans-Regular;}
+
+/*FOOTER MOVIL*/
+.headermov{width: 100%;background-color: white;}
+.contmovil{width: 100%;height: 180px;background-color:green }
+.footface{margin-top: 30px;margin-left: 20px;}
+.foottwi{margin-top: 30px;margin-left: 20px;clear:both;}
+.contenl{width: 100%;height: 20px;margin-top: 20px;}
+.enlacesfoav{width: 47%;height: 15px;border-right: 1px white solid;float: left;text-align: center;color: white;font-size: 10px;}
+.enlacesfo{width: 27%;height: 15px;border-right: 1px white solid;float: left;text-align: center;color: white;font-size: 10px;}
+.enlacescon{width: 25%;height: 15px;border-right: 1px white solid;float: left;text-align: center;color: white;font-size: 10px;}
+.space{width: 80%;text-align: center;color: white;font-size: 11px;display: block;margin: 0 auto;}
+.movilhe{background-color: #8CC63E;float: left; height: 100%}
+.movilhe:hover{background-color: #8CC63E;}
+.movilhe:focus{background-color: #8CC63E;}
+.logomo{float: right;}
+/*footer*/
+
+
+
+
+@media (max-width:800px) and (min-width:1px){
+	/**home**/
+	.artesanos{height: 150px;}
+	.productoshomecont{margin-left: 50px;}
+	/**quienes**/
+	.tituloqlg{font-size: 18px}
+	.infoqlg{font-size: 13px}
+	.textquien{margin-top: -20px}
+	.parrafoquien{font-size: 12px;padding-top: 40px;}
+	.flechaquienes{margin-top: -10px;}
+	.textnaranja{margin-top: -80px}
+	.parrafoquien2{font-size: 12px;padding-top: 40px;}
+	/**contacto**/
+	.contmensajecontactanos{margin-top: 20px;background-color: #ED008C}
+	.contformulario{width: 100%}
+	.formcont{width:100%}
+	.conttextdatos{width: 30%;}
+	.formulario{width: 70%}
+	.textdatos{width:90%;margin: auto;margin-top: 3px}
+	.infomensaje{font-size: 13px;width: 90%}
+	.datos{font-size: 13px}
+	.otros{font-size:16px;}
+	/**PRENSA**/
+	.flechapreizq{width: 40px;height: 40px;margin-left: 10px;}
+	.flechapreder{width: 40px;height: 40px;margin-right: 10px;}
+	.flechsspren{width: 130px;height: 60px;margin:  auto;margin-top: 80px;margin-bottom: 20px;}
+	.redespre{width: 100%}
+	.imgpre1{width: 100%}
+	.barrabuscar{width: 100%;margin-bottom: 10px;}
+	.buscarprensa{width: 88%;height: 40px;background-color: #E1E1E1;color: #A89FA0;margin-bottom:10px;float: left; }
+	.buscarimg{width: 12%;background-color: #ED008C;float: left;height: 40px;}
+	.misearch{color: white;font-size: 30px;margin-left: 10px;margin-top: 5px;}
+	.popular{margin-bottom: 10px;;margin-top: 80px;}
+	.tagsini{margin-left:10px;}
+	.tituloprensa1{font-size: 14px}
+	.botonesblog{margin:auto;width: 210px;float: none;margin-bottom: 20px;}
+	.pagincionblogbtn{width: 30px;height: 40px;margin-left: 2px}
+	.indexcontpro{width: 100%}
+	.contenidoproductoshome{height:auto;}
+	.productohome{margin:auto;}
+	.contenidoproductoshome{width: 100%}
+	.contproductossecciones{width: 100%}
+	.contizqpre{width: 100%}
+	.contenedordeproducto{margin: 5px 0 5px -10px}
+	}/*movil*/
+
+
+	@media (max-width:1000px) and (min-width:801px){
+		.indexcontpro{width: 100%}
+		.contenidoproductoshome{width: 100%}
+		.contproductossecciones{width: 100%}
+	}

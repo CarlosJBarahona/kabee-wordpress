@@ -1,0 +1,12 @@
+{
+	"owl" : [
+	    {"item" : "<span class='item'><img  src='img/home/artesano1.jpg'></span>"},
+	    {"item" : "<span class='item'><img  src='img/home/artesano2.jpg'></span>"},
+	    {"item" : "<span class='item'><img  src='img/home/artesano1.jpg'></span>"},
+	    {"item" : "<span class='item'><img  src='img/home/artesano2.jpg'></span>"},
+	    {"item" : "<span class='item'><img  src='img/home/artesano1.jpg'></span>"},
+	    {"item" : "<span class='item'><img  src='img/home/artesano2.jpg'></span>"}
+
+	]
+}]
+}
